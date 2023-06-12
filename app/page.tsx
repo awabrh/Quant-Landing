@@ -1,3 +1,4 @@
+import Clients from "@/components/Clients";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import Tagline from "@/components/Tagline";
@@ -8,6 +9,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <Tagline />
+      <Clients />
     </main>
   );
 }
