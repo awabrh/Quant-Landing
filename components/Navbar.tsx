@@ -49,7 +49,7 @@ export default function Navbar() {
             alt="Quant logo"
             width={80}
             height={20}
-            className="hover:cursor-pointe"
+            className="hover:cursor-pointer"
           />
 
           <div className="hidden md:flex">
