@@ -64,7 +64,7 @@ export default function Navbar() {
                 <Link href="/#">Product</Link>
               </li>
               <li className="hover:text-[#555] hover:cursor-pointer transition-all duration-200">
-                <Link href="/#">company</Link>
+                <Link href="/#">Company</Link>
               </li>
             </ul>
           </div>
