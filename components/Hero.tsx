@@ -1,5 +1,4 @@
 import Image from "next/image";
-import React from "react";
 import HeroImage from "../public/Hero.png";
 import { FaAngleRight, FaArrowRight } from "react-icons/fa";
 
