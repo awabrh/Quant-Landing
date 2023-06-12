@@ -1,6 +1,7 @@
 import Clients from "@/components/Clients";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
+import Products from "@/components/Products";
 import Tagline from "@/components/Tagline";
 
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
       <Hero />
       <Tagline />
       <Clients />
+      <Products />
     </main>
   );
 }

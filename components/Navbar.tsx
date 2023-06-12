@@ -53,17 +53,17 @@ export default function Navbar() {
           />
 
           <div className="hidden md:flex">
-            <ul className="flex text-md font-light gap-8">
-              <li className="hover:text-[#555] hover:cursor-pointer transition-all duration-200">
+            <ul className="flex text-md gap-8 text-neutral-500 font">
+              <li className="hover:text-white hover:cursor-pointer transition-all duration-200">
                 <Link href="/">Home</Link>
               </li>
-              <li className="hover:text-[#555] hover:cursor-pointer transition-all duration-200">
+              <li className="hover:text-white hover:cursor-pointer transition-all duration-200">
                 <Link href="/#">Enterprise</Link>
               </li>
-              <li className="hover:text-[#555] hover:cursor-pointer transition-all duration-200">
+              <li className="hover:text-white hover:cursor-pointer transition-all duration-200">
                 <Link href="/#">Product</Link>
               </li>
-              <li className="hover:text-[#555] hover:cursor-pointer transition-all duration-200">
+              <li className="hover:text-white hover:cursor-pointer transition-all duration-200">
                 <Link href="/#">Company</Link>
               </li>
             </ul>
