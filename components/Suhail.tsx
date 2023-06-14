@@ -1,6 +1,7 @@
 import Image from "next/image";
 import phone from ".././public/phone.png";
 import suhailLogo from ".././public/suhail.png";
+import Button from "./Button";
 
 export default function Suhail() {
   return (
@@ -11,6 +12,7 @@ export default function Suhail() {
           Suhail combines Machine Learning, Big Data & AI technologies with real
           estate data sources to showcase extensive property data and insights.
         </p>
+        <Button>Discover Suhail</Button>
       </div>
       <div className="flex items-center justify-center h-[35rem] rounded-2xl bg-gradient-to-bl from-blue-800 to-rose-600 via-yellow-600 w-[30rem]">
         <Image

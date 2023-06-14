@@ -1,3 +1,4 @@
+import Fruits360 from "./Fruits360";
 import Suhail from "./Suhail";
 
 export default function Products() {
@@ -8,6 +9,7 @@ export default function Products() {
         With excellence in mind, our products solve complex industry challenges.
       </p>
       <Suhail />
+      <Fruits360 />
     </div>
   );
 }
