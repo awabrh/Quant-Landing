@@ -1,4 +1,5 @@
 import Clients from "@/components/Clients";
+import Contact from "@/components/Contact";
 import Enterprise from "@/components/Enterprise";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
@@ -14,6 +15,7 @@ export default function Home() {
       <Clients />
       <Products />
       <Enterprise />
+      <Contact />
     </main>
   );
 }
