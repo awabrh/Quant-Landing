@@ -19,7 +19,7 @@ export default function Hero() {
           cutting-edge products.
         </p>
         <div className="flex flex-row w-56 justify-between">
-          <a className="bg-white text-black px-3 min-w-fit pb-1 rounded-full hover:cursor-pointer border hover:text-white hover:bg-black hover:border-white transition-all border-black ">
+          <a className="bg-white text-black px-3  min-w-fit pr-2 rounded-full hover:cursor-pointer border hover:text-white hover:bg-black hover:border-white transition-all border-black ">
             start now <FaAngleRight className="hover:visible inline-block" />
           </a>
           <a className="text-neutral-500 min-w-fit hover:text-white hover:cursor-pointer transition-all">
