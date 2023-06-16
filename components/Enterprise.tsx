@@ -23,7 +23,7 @@ export default function Enterprise() {
       </div>
       <div className="flex flex-row justify-between relative">
         <div
-          className={`absolute w-[1px] h-[9.2rem] bg-blue-600 transition-all ${offset}`}
+          className={`absolute w-[1px] h-[10.4rem] bg-blue-600 transition-all ${offset}`}
         />
         <div className="pl-10 border-l-[1px] border-neutral-500 border-dashed">
           <Solution
@@ -38,7 +38,7 @@ export default function Enterprise() {
             title="Data-Driven Insights"
             text="An expanse of comprehensive, filtered, and structured data that provides a depth of knowledge, setting businesses and governments ahead of competition."
             onHover={() => {
-              setOffset("translate-y-[9.2rem]");
+              setOffset("translate-y-[10.4rem]");
               setImage(ball);
             }}
           />
@@ -46,7 +46,7 @@ export default function Enterprise() {
             title="Advanced Analytics"
             text="Integrated & customized BI and analytics solutions that unlock Food & Beverage business potential effortlessly."
             onHover={() => {
-              setOffset("translate-y-[18.4rem]");
+              setOffset("translate-y-[20.8rem]");
               setImage(window);
             }}
           />
@@ -54,7 +54,7 @@ export default function Enterprise() {
             title="Growth Acceleration"
             text="Simplified lead generation solutions tailored to the unique needs of individuals, lenders, and Micro, Small, and Medium enterprises (MSMEs)."
             onHover={() => {
-              setOffset("translate-y-[27.6rem]");
+              setOffset("translate-y-[31.2rem]");
               setImage(rocket);
             }}
           />

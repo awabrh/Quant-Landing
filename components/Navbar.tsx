@@ -8,8 +8,8 @@ import Image from "next/image";
 
 export default function Navbar() {
   const [toggle, setToggle] = useState(false);
-  const [arrowOffset, setArrowOffset] = useState("ml-[197px]");
-  const [bubbleOffset, setBubbleOffset] = useState("ml-[160px]");
+  const [arrowOffset, setArrowOffset] = useState("ml-[217px]");
+  const [bubbleOffset, setBubbleOffset] = useState("ml-[180px]");
   const [bubbleVisability, setBubbleVisability] = useState("hidden");
   const [isProducts, setIsProducts] = useState(true);
 
@@ -81,8 +81,8 @@ export default function Navbar() {
                   href="/#"
                   onMouseEnter={() => {
                     setBubbleVisability("visible");
-                    setArrowOffset("ml-[197px]");
-                    setBubbleOffset("ml-[160px]");
+                    setArrowOffset("ml-[217px]");
+                    setBubbleOffset("ml-[180px]");
                     setIsProducts(true);
                   }}
                 >
@@ -94,8 +94,8 @@ export default function Navbar() {
                   href="/#"
                   onMouseEnter={() => {
                     setBubbleVisability("visible");
-                    setArrowOffset("ml-[297px]");
-                    setBubbleOffset("ml-[240px] w-28");
+                    setArrowOffset("ml-[317px]");
+                    setBubbleOffset("ml-[260px] w-28");
                     setIsProducts(false);
                   }}
                 >
