@@ -7,6 +7,21 @@ module.exports = {
   ],
   theme: {
     extend: {
+      keyframes: {
+        flow: {
+          "0%, 100%": {
+            "background-size": "200% 200%",
+            "background-position": "left center",
+          },
+          "50%": {
+            "background-size": "200% 200%",
+            "background-position": "right center",
+          },
+        },
+      },
+      animation: {
+        flow: "flow 6s ease infinite",
+      },
       boxShadow: {
         inside: "inset 0px 0px 15px 2px rgb(0 0 0 / 0.05)",
       },

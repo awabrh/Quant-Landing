@@ -14,7 +14,7 @@ export default function Fruits360() {
         </p>
         <Button>Discover Fruits360</Button>
       </div>
-      <div className="flex items-center justify-center h-[35rem] rounded-2xl bg-gradient-to-bl from-violet-800 to-blue-600 via-emerald-600 w-[30rem]">
+      <div className="flex items-center justify-center h-[35rem] animate-flow rounded-2xl bg-gradient-to-bl from-violet-800 to-blue-600 via-emerald-600 w-[30rem]">
         <Image
           className="w-96"
           src={laptop}

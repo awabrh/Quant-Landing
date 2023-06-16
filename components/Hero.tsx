@@ -8,7 +8,7 @@ export default function Hero() {
       <div className="flex flex-col w-full">
         <h1 className="text-7xl font-bold w-[36rem]">
           OPTAMIZING{" "}
-          <span className="bg-clip-text text-transparent bg-gradient-to-l from-violet-800 to-cyan-600">
+          <span className="bg-clip-text text-transparent animate-flow bg-gradient-to-l from-fuchsia-800 via-cyan-800 to-fuchsia-800">
             DATA
           </span>{" "}
           TO SCALE ENTERPRISES
@@ -19,10 +19,10 @@ export default function Hero() {
           cutting-edge products.
         </p>
         <div className="flex flex-row w-56 justify-between">
-          <a className="bg-white text-black px-3 pb-1 rounded-full hover:cursor-pointer">
+          <a className="bg-white text-black px-3 pb-1 rounded-full hover:cursor-pointer border hover:text-white hover:bg-black hover:border-white transition-all border-black ">
             start now <FaAngleRight className="hover:visible inline-block" />
           </a>
-          <a className="text-neutral-500 hover:text-white hover:cursor-pointer">
+          <a className="text-neutral-500 hover:text-white hover:cursor-pointer transition-all">
             view products
           </a>
         </div>
