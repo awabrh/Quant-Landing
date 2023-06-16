@@ -18,8 +18,8 @@ export default function Hero() {
           unique Business Intelligence enterprise solutions through our
           cutting-edge products.
         </p>
-        <div className="flex flex-row w-56 justify-between">
-          <a className="bg-white text-black px-3  min-w-fit pr-2 rounded-full hover:cursor-pointer border hover:text-white hover:bg-black hover:border-white transition-all border-black ">
+        <div className="flex flex-row w-60 justify-between">
+          <a className="bg-white text-black px-2  min-w-fit rounded-full hover:cursor-pointer border hover:text-white hover:bg-black hover:border-white transition-all border-black ">
             start now <FaAngleRight className="hover:visible inline-block" />
           </a>
           <a className="text-neutral-500 min-w-fit hover:text-white hover:cursor-pointer transition-all">
