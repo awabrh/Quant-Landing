@@ -8,7 +8,7 @@ export default function Hero() {
       <div className="flex flex-col w-full">
         <h1 className="text-7xl font-bold w-[36rem]">
           OPTAMIZING{" "}
-          <span className="bg-clip-text text-transparent animate-flow bg-gradient-to-l from-fuchsia-800 via-cyan-800 to-fuchsia-800">
+          <span className="bg-clip-text text-transparent animate-flow bg-gradient-to-l from-blue-600 via-cyan-500 to-violet-700">
             DATA
           </span>{" "}
           TO SCALE ENTERPRISES
